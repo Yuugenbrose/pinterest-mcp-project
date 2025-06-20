@@ -1,0 +1,9 @@
+# Diret?rio para armazenar imagens baixadas do Pinterest
+
+Este diret?rio armazenar?:
+- Imagens baixadas dos pins
+- Thumbnails
+- Metadados das imagens
+
+Nota: Arquivos de imagem n?o devem ser commitados no Git por quest?es de tamanho.
+Considere adicionar *.jpg, *.png, *.gif ao .gitignore se necess?rio.

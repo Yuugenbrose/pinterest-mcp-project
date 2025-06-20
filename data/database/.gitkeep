@@ -1,0 +1,9 @@
+# Diret?rio para arquivos de banco de dados SQLite
+
+Este diret?rio conter?:
+- pinterest.db - Banco principal com dados dos pins
+- cache.db - Cache de requisi??es
+- user_data.db - Dados do usu?rio
+
+Nota: Bancos de dados podem conter informa??es sens?veis.
+Considere adicionar *.db ao .gitignore se necess?rio.

@@ -1,0 +1,9 @@
+# Diret?rio para backups autom?ticos
+
+Este diret?rio armazenar?:
+- Backups di?rios dos bancos de dados
+- Backups de configura??es
+- Logs de backup
+
+Nota: Backups devem ser mantidos localmente e n?o commitados.
+Adicione backup_* ao .gitignore.

@@ -1,0 +1,10 @@
+# Diret?rio para arquivos de configura??o
+
+Este diret?rio conter?:
+- config.json - Configura??es principais
+- secrets.env - Vari?veis de ambiente (N?O commitar)
+- pinterest_config.json - Configura??es espec?ficas do Pinterest
+- logging_config.json - Configura??o de logs
+
+IMPORTANTE: Nunca commitar arquivos com credenciais!
+Adicione secrets.env e arquivos similares ao .gitignore.

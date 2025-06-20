@@ -1,0 +1,10 @@
+# Diret?rio para logs do sistema
+
+Este diret?rio conter?:
+- app.log - Logs principais da aplica??o
+- error.log - Logs de erro
+- pinterest_api.log - Logs espec?ficos da API do Pinterest
+- debug.log - Logs de debug
+
+Nota: Logs podem conter informa??es sens?veis.
+Considere adicionar *.log ao .gitignore.

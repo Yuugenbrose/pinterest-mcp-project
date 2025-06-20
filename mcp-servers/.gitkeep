@@ -1,0 +1,8 @@
+# Diret?rio para servidores MCP customizados
+
+Este diret?rio conter? os servidores MCP personalizados para integra??o com Pinterest.
+
+Estrutura sugerida:
+- pinterest-server.py - Servidor principal do Pinterest
+- utils/ - Utilit?rios compartilhados
+- tests/ - Testes dos servidores
