@@ -2,7 +2,7 @@
 
 Projeto MCP personalizado para integrar com Pinterest, permitindo interagir automaticamente com a plataforma para download e gerenciamento de imagens.
 
-## ? Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 pinterest-mcp-project/
@@ -16,7 +16,7 @@ pinterest-mcp-project/
 ??? requirements.txt      # Depend?ncias Python
 ```
 
-## ? Instalação
+## Instalação
 
 1. Clone o repositório:
 ```bash
@@ -37,7 +37,7 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 
-## ?? Configuração
+## Configuração
 
 1. Copie o arquivo de configuração exemplo:
 ```bash
@@ -51,7 +51,7 @@ cp config/secrets.example.env config/secrets.env
 
 3. Edite os arquivos de configuração com suas informações.
 
-## ? Componentes
+## Componentes
 
 ### MCP Servers
 - **pinterest-server.py**: Servidor principal para interação com a API do Pinterest
@@ -67,11 +67,11 @@ cp config/secrets.example.env config/secrets.env
 - **logs/**: Sistema de logging estruturado
 - **config/**: Configura??es centralizadas
 
-## ?? Uso
+## Uso
 
 [Instruções de uso serão adicionadas conforme o desenvolvimento]
 
-## ? Contribuição
+## Contribuição
 
 1. Fork o projeto
 2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
@@ -79,11 +79,11 @@ cp config/secrets.example.env config/secrets.env
 4. Push para a branch (`git push origin feature/nova-feature`)
 5. Crie um Pull Request
 
-## ? Licença
+## Licença
 
 [Adicionar licen?a]
 
-## ? Links Úteis
+## Links Úteis
 
 - [Pinterest API Documentation](https://developers.pinterest.com/)
 - [MCP Documentation](https://github.com/modelcontextprotocol)
