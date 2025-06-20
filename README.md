@@ -1,6 +1,6 @@
 # Pinterest MCP Project
 
-Projeto MCP (Model Context Protocol) personalizado para integra??o com Pinterest, permitindo intera??o automatizada com a plataforma atrav?s de servidores customizados.
+Projeto MCP personalizado para integrar com Pinterest, permitindo interagir automaticamente com a plataforma para download e gerenciamento de imagens.
 
 ## ? Estrutura do Projeto
 
@@ -16,9 +16,9 @@ pinterest-mcp-project/
 ??? requirements.txt      # Depend?ncias Python
 ```
 
-## ? Instala??o
+## ? Instalação
 
-1. Clone o reposit?rio:
+1. Clone o repositório:
 ```bash
 git clone https://github.com/Yuugenbrose/pinterest-mcp-project.git
 cd pinterest-mcp-project
@@ -32,14 +32,14 @@ source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 ```
 
-3. Instale as depend?ncias:
+3. Instale as dependências:
 ```bash
 pip install -r requirements.txt
 ```
 
-## ?? Configura??o
+## ?? Configuração
 
-1. Copie o arquivo de configura??o exemplo:
+1. Copie o arquivo de configuração exemplo:
 ```bash
 cp config/config.example.json config/config.json
 ```
@@ -49,13 +49,13 @@ cp config/config.example.json config/config.json
 cp config/secrets.example.env config/secrets.env
 ```
 
-3. Edite os arquivos de configura??o com suas informa??es.
+3. Edite os arquivos de configuração com suas informações.
 
 ## ? Componentes
 
 ### MCP Servers
-- **pinterest-server.py**: Servidor principal para intera??o com a API do Pinterest
-- **utils/**: Utilit?rios compartilhados entre servidores
+- **pinterest-server.py**: Servidor principal para interação com a API do Pinterest
+- **utils/**: Utilitários compartilhados entre servidores
 - **tests/**: Testes automatizados
 
 ### Data Management
@@ -69,21 +69,21 @@ cp config/secrets.example.env config/secrets.env
 
 ## ?? Uso
 
-[Instru??es de uso ser?o adicionadas conforme o desenvolvimento]
+[Instruções de uso serão adicionadas conforme o desenvolvimento]
 
-## ? Contribui??o
+## ? Contribuição
 
 1. Fork o projeto
 2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Commit suas mudan?as (`git commit -am 'Adiciona nova feature'`)
+3. Commit suas mudanças (`git commit -am 'Adiciona nova feature'`)
 4. Push para a branch (`git push origin feature/nova-feature`)
 5. Crie um Pull Request
 
-## ? Licen?a
+## ? Licença
 
 [Adicionar licen?a]
 
-## ? Links ?teis
+## ? Links Úteis
 
 - [Pinterest API Documentation](https://developers.pinterest.com/)
 - [MCP Documentation](https://github.com/modelcontextprotocol)
