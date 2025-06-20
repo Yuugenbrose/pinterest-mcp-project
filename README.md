@@ -6,14 +6,14 @@ Projeto MCP personalizado para integrar com Pinterest, permitindo interagir auto
 
 ```
 pinterest-mcp-project/
-??? mcp-servers/           # Servers customizados
-??? data/
-?   ??? images/           # Imagens baixadas
-?   ??? database/         # Arquivos SQLite
-?   ??? backups/          # Backups autom?ticos
-??? logs/                 # Logs do sistema
-??? config/               # Configura??es
-??? requirements.txt      # Depend?ncias Python
+--- mcp-servers/           # Servers customizados
+--- data/
+-   --- images/           # Imagens baixadas
+-   --- database/         # Arquivos SQLite
+-   --- backups/          # Backups autom?ticos
+--- logs/                 # Logs do sistema
+--- config/               # Configura??es
+--- requirements.txt      # Depend?ncias Python
 ```
 
 ## Instalação
